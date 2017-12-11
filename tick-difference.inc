@@ -1,3 +1,8 @@
+#if defined _tick_difference_included
+	#endinput
+#endif
+#define _tick_difference_included
+
 stock GetTickCountDifference(newtick, oldtick) {
 	if (oldtick < 0 && newtick >= 0)
 		return newtick - oldtick;
