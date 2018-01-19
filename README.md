@@ -2,15 +2,15 @@
 
 `GetTickCountDifference` returns the difference between two values from `GetTickCount` and takes into account overflow.
 
-## Usage
+## Installation
 
-Simply add to your `pawn.json` and include:
+Simply install to your project:
 
-```json
-{
-    "dependencies": ["ScavengeSurvive/tick-difference"]
-}
+```bash
+sampctl package install ScavengeSurvive/tick-difference
 ```
+
+Include in your code and begin using the library:
 
 ```pawn
 #include <tick-difference>
@@ -24,4 +24,4 @@ To test, simply run the package:
 sampctl package run
 ```
 
-Then connect to `localhost:7777`.
+And observe the y_testing output.
