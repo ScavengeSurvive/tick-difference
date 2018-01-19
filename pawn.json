@@ -4,5 +4,8 @@
     "dependencies": [
         "Southclaws/samp-stdlib",
         "ScavengeSurvive/test-boilerplate"
-    ]
+    ],
+    "runtime": {
+        "mode": "y_testing"
+    }
 }
